@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GenSortBigDataFile</name>
+    </assembly>
+    <members>
+        <member name="T:StringData">
+            <summary>
+            Суть задания: сгенерировать огромный файл размером до 300 Гб
+            в формате 123. строка_разной_длины
+            и отсортировать его
+            </summary>
+        </member>
+        <member name="F:StringData.SIZE">
+            <summary>
+            Максимальная длина строки
+            </summary>
+        </member>
+        <member name="P:StringData.Num">
+            <summary>
+            Порядковый номер строки
+            </summary>
+            
+        </member>
+        <member name="P:StringData.Data">
+            <summary>
+            Строка данных
+            </summary>
+        </member>
+        <member name="P:StringData.Get">
+            <summary>
+            Дает значение данных в форме строки 
+            </summary>
+        </member>
+        <member name="P:StringData.change">
+            <summary>
+            Присваивание значений
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:StringData.new_item(System.Int32)">
+            <summary>
+            new_item - просто новый элемент
+            </summary>
+        </member>
+    </members>
+</doc>
